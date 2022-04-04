@@ -4,9 +4,9 @@ define("DATA_LAYER_CONFIG", [
     "driver" => "mysql",
     "host" => "localhost",
     "port" => "3306",
-    "dbname" => "grupoacerte...x",
-    "username" => "root",
-    "passwd" => "",
+    "dbname" => "grupoacerte10",
+    "username" => "",
+    "passwd" => "226298my@Sql",
     "options" => [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf-8",
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
