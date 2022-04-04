@@ -1,0 +1,31 @@
+{
+  "name": "paulodinizlima/leitorcsv2",
+  "description": "Leitor de arquivo CSV sem Vírgula",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Paulo Diniz",
+      "email": "diniz_lima@hotmail.com",
+      "role": "Developer",
+      "homepage": "https://grupoacerte.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.*",
+    "fzaninotto/faker": "1.8.*",
+    "league/csv": "9.3.*"
+  }
+
+}
